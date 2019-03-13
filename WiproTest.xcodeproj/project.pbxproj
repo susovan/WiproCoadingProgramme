@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077FC20DA61F841C07CAD034 /* Pods_WiproTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE82E38AF70CB40B73F95737 /* Pods_WiproTest.framework */; };
+		1EE76B3FD177AB9F447E99B1 /* Pods_WiproTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD48C7FCA5E8634AC91E9FBB /* Pods_WiproTestTests.framework */; };
+		42FD94B0E3868F3585E625DB /* Pods_WiproTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36E3965C353C7FBF7F649B /* Pods_WiproTestUITests.framework */; };
 		5C79B9D5223974BC0029942D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9D4223974BC0029942D /* AppDelegate.swift */; };
 		5C79B9D7223974BC0029942D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9D6223974BC0029942D /* ViewController.swift */; };
 		5C79B9DA223974BC0029942D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C79B9D8223974BC0029942D /* Main.storyboard */; };
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078BC66FA1EF8FC2C327F1EC /* Pods-WiproTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTestTests/Pods-WiproTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C79B9D1223974BC0029942D /* WiproTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C79B9D4223974BC0029942D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C79B9D6223974BC0029942D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		5C79B9F3223974BD0029942D /* WiproTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C79B9F7223974BD0029942D /* WiproTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproTestUITests.swift; sourceTree = "<group>"; };
 		5C79B9F9223974BD0029942D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB4441704055A87340C1479 /* Pods-WiproTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTestTests/Pods-WiproTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76FEE6A0F357DD83D8A49225 /* Pods-WiproTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTestUITests/Pods-WiproTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7DC6703F19ADC245F315CD /* Pods-WiproTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTest/Pods-WiproTest.release.xcconfig"; sourceTree = "<group>"; };
+		AD36E3965C353C7FBF7F649B /* Pods_WiproTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD48C7FCA5E8634AC91E9FBB /* Pods_WiproTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04528187869011EF3653EF5 /* Pods-WiproTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTestUITests/Pods-WiproTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D27636B5FD92F6878E6B3900 /* Pods-WiproTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTest/Pods-WiproTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FE82E38AF70CB40B73F95737 /* Pods_WiproTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077FC20DA61F841C07CAD034 /* Pods_WiproTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE76B3FD177AB9F447E99B1 /* Pods_WiproTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FD94B0E3868F3585E625DB /* Pods_WiproTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40629C508B6B6AFF08C7A36C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D27636B5FD92F6878E6B3900 /* Pods-WiproTest.debug.xcconfig */,
+				7B7DC6703F19ADC245F315CD /* Pods-WiproTest.release.xcconfig */,
+				6CB4441704055A87340C1479 /* Pods-WiproTestTests.debug.xcconfig */,
+				078BC66FA1EF8FC2C327F1EC /* Pods-WiproTestTests.release.xcconfig */,
+				76FEE6A0F357DD83D8A49225 /* Pods-WiproTestUITests.debug.xcconfig */,
+				D04528187869011EF3653EF5 /* Pods-WiproTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5C79B9C8223974BC0029942D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				5C79B9EB223974BC0029942D /* WiproTestTests */,
 				5C79B9F6223974BD0029942D /* WiproTestUITests */,
 				5C79B9D2223974BC0029942D /* Products */,
+				40629C508B6B6AFF08C7A36C /* Pods */,
+				F53611B9EFD89C4F1851F58D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = WiproTestUITests;
 			sourceTree = "<group>";
 		};
+		F53611B9EFD89C4F1851F58D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE82E38AF70CB40B73F95737 /* Pods_WiproTest.framework */,
+				CD48C7FCA5E8634AC91E9FBB /* Pods_WiproTestTests.framework */,
+				AD36E3965C353C7FBF7F649B /* Pods_WiproTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C79B9FC223974BD0029942D /* Build configuration list for PBXNativeTarget "WiproTest" */;
 			buildPhases = (
+				B4A96662784A324BEBF01A1B /* [CP] Check Pods Manifest.lock */,
 				5C79B9CD223974BC0029942D /* Sources */,
 				5C79B9CE223974BC0029942D /* Frameworks */,
 				5C79B9CF223974BC0029942D /* Resources */,
+				822F0F23E8EF660A60B292D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C79B9FF223974BD0029942D /* Build configuration list for PBXNativeTarget "WiproTestTests" */;
 			buildPhases = (
+				DE03CB8750C7D2C226DF8A5B /* [CP] Check Pods Manifest.lock */,
 				5C79B9E4223974BC0029942D /* Sources */,
 				5C79B9E5223974BC0029942D /* Frameworks */,
 				5C79B9E6223974BC0029942D /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C79BA02223974BD0029942D /* Build configuration list for PBXNativeTarget "WiproTestUITests" */;
 			buildPhases = (
+				2AE27C44A1D8BC8C511BC53A /* [CP] Check Pods Manifest.lock */,
 				5C79B9EF223974BD0029942D /* Sources */,
 				5C79B9F0223974BD0029942D /* Frameworks */,
 				5C79B9F1223974BD0029942D /* Resources */,
@@ -253,6 +297,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE27C44A1D8BC8C511BC53A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiproTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822F0F23E8EF660A60B292D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WiproTest/Pods-WiproTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WiproTest/Pods-WiproTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A96662784A324BEBF01A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiproTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE03CB8750C7D2C226DF8A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiproTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C79B9CD223974BC0029942D /* Sources */ = {
@@ -434,6 +553,7 @@
 		};
 		5C79B9FD223974BD0029942D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27636B5FD92F6878E6B3900 /* Pods-WiproTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +571,7 @@
 		};
 		5C79B9FE223974BD0029942D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7DC6703F19ADC245F315CD /* Pods-WiproTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +589,7 @@
 		};
 		5C79BA00223974BD0029942D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB4441704055A87340C1479 /* Pods-WiproTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +610,7 @@
 		};
 		5C79BA01223974BD0029942D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078BC66FA1EF8FC2C327F1EC /* Pods-WiproTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +631,7 @@
 		};
 		5C79BA03223974BD0029942D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76FEE6A0F357DD83D8A49225 /* Pods-WiproTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +651,7 @@
 		};
 		5C79BA04223974BD0029942D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04528187869011EF3653EF5 /* Pods-WiproTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
