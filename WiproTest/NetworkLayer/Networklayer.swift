@@ -21,7 +21,6 @@ class NetworkLayer {
                return completion(nil)
             }
             guard response != nil else{
-                print("URLResponse is null")
                 return completion(nil)
             }
          let response = response as? HTTPURLResponse
@@ -30,7 +29,7 @@ class NetworkLayer {
                 completion(data)
             }else
             {
-                _ = error?.localizedDescription ?? "An error occured while retrieving data"
+                _ = error?.localizedDescription ?? Constants.errorMessage
 //                Utility.showMessage(title:"No Access", msg:errorMessage)
                 return completion(nil)
             }

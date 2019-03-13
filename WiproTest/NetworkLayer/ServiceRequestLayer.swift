@@ -14,7 +14,7 @@ class serviceRequest
 
     static func getContentDetails(complition: @escaping tableContentDetails)
     {
-        let search = "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/facts.json"
+        let search = Constants.jsonUrl
         
         if  let request  = RequestBuilder.getRequestForAddress(search, parameters:nil, httpBody:nil, httpType:HTTPMethod.get)
         {

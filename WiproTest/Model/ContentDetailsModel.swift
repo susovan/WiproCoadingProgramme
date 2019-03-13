@@ -23,12 +23,12 @@ class ContentDetailsModel: NSObject {
         if jsonObject.count > 0
         {
             
-            let contentDetails = jsonObject["rows"].arrayValue
+            let contentDetails = jsonObject[Constants.rowkey].arrayValue
             for  iteamDetails in  contentDetails {
                 let tableContent = ContentDetailsModel()
-                tableContent.title = iteamDetails ["title"].string
-                tableContent.descriptionDetails =  iteamDetails ["description"].string
-                tableContent.imageHref = iteamDetails ["imageHref"].stringValue
+                tableContent.title = iteamDetails [Constants.title].string
+                tableContent.descriptionDetails =  iteamDetails [Constants.description].string
+                tableContent.imageHref = iteamDetails [Constants.imageHref].stringValue
                 contentDetailModels.append(tableContent)
             }
         }
