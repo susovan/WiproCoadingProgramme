@@ -10,6 +10,36 @@
 		077FC20DA61F841C07CAD034 /* Pods_WiproTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE82E38AF70CB40B73F95737 /* Pods_WiproTest.framework */; };
 		1EE76B3FD177AB9F447E99B1 /* Pods_WiproTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD48C7FCA5E8634AC91E9FBB /* Pods_WiproTestTests.framework */; };
 		42FD94B0E3868F3585E625DB /* Pods_WiproTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36E3965C353C7FBF7F649B /* Pods_WiproTestUITests.framework */; };
+		5C735CB422397E4600A61D7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB322397E4600A61D7D /* HomeViewController.swift */; };
+		5C735CB522397E4600A61D7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB322397E4600A61D7D /* HomeViewController.swift */; };
+		5C735CB622397E4600A61D7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB322397E4600A61D7D /* HomeViewController.swift */; };
+		5C735CB822397E5B00A61D7D /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB722397E5B00A61D7D /* NetworkOperation.swift */; };
+		5C735CB922397E5B00A61D7D /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB722397E5B00A61D7D /* NetworkOperation.swift */; };
+		5C735CBA22397E5B00A61D7D /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB722397E5B00A61D7D /* NetworkOperation.swift */; };
+		5C735CBC22397E7000A61D7D /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CBB22397E7000A61D7D /* RequestBuilder.swift */; };
+		5C735CBD22397E7000A61D7D /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CBB22397E7000A61D7D /* RequestBuilder.swift */; };
+		5C735CBE22397E7000A61D7D /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CBB22397E7000A61D7D /* RequestBuilder.swift */; };
+		5C735CC022397E7E00A61D7D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CBF22397E7E00A61D7D /* Constant.swift */; };
+		5C735CC122397E7E00A61D7D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CBF22397E7E00A61D7D /* Constant.swift */; };
+		5C735CC222397E7E00A61D7D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CBF22397E7E00A61D7D /* Constant.swift */; };
+		5C735CC422397E8900A61D7D /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CC322397E8900A61D7D /* HttpMethod.swift */; };
+		5C735CC522397E8900A61D7D /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CC322397E8900A61D7D /* HttpMethod.swift */; };
+		5C735CC622397E8900A61D7D /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CC322397E8900A61D7D /* HttpMethod.swift */; };
+		5C735CC822397E9500A61D7D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CC722397E9500A61D7D /* SwiftyJSON.swift */; };
+		5C735CC922397E9500A61D7D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CC722397E9500A61D7D /* SwiftyJSON.swift */; };
+		5C735CCA22397E9500A61D7D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CC722397E9500A61D7D /* SwiftyJSON.swift */; };
+		5C735CCC22397E9E00A61D7D /* Networklayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CCB22397E9E00A61D7D /* Networklayer.swift */; };
+		5C735CCD22397E9E00A61D7D /* Networklayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CCB22397E9E00A61D7D /* Networklayer.swift */; };
+		5C735CCE22397E9E00A61D7D /* Networklayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CCB22397E9E00A61D7D /* Networklayer.swift */; };
+		5C735CD022397EA500A61D7D /* ServiceRequestLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */; };
+		5C735CD122397EA500A61D7D /* ServiceRequestLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */; };
+		5C735CD222397EA500A61D7D /* ServiceRequestLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */; };
+		5C735CD422397EC000A61D7D /* ContentDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */; };
+		5C735CD522397EC000A61D7D /* ContentDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */; };
+		5C735CD622397EC000A61D7D /* ContentDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */; };
+		5C735CD822397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */; };
+		5C735CD922397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */; };
+		5C735CDA22397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */; };
 		5C79B9D5223974BC0029942D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9D4223974BC0029942D /* AppDelegate.swift */; };
 		5C79B9D7223974BC0029942D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9D6223974BC0029942D /* ViewController.swift */; };
 		5C79B9DA223974BC0029942D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C79B9D8223974BC0029942D /* Main.storyboard */; };
@@ -39,6 +69,16 @@
 
 /* Begin PBXFileReference section */
 		078BC66FA1EF8FC2C327F1EC /* Pods-WiproTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTestTests/Pods-WiproTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C735CB322397E4600A61D7D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5C735CB722397E5B00A61D7D /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		5C735CBB22397E7000A61D7D /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		5C735CBF22397E7E00A61D7D /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5C735CC322397E8900A61D7D /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		5C735CC722397E9500A61D7D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5C735CCB22397E9E00A61D7D /* Networklayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networklayer.swift; sourceTree = "<group>"; };
+		5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequestLayer.swift; sourceTree = "<group>"; };
+		5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailsModel.swift; sourceTree = "<group>"; };
+		5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableviewCustomCell.swift; sourceTree = "<group>"; };
 		5C79B9D1223974BC0029942D /* WiproTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C79B9D4223974BC0029942D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C79B9D6223974BC0029942D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,7 +170,17 @@
 			isa = PBXGroup;
 			children = (
 				5C79B9D4223974BC0029942D /* AppDelegate.swift */,
+				5C735CB322397E4600A61D7D /* HomeViewController.swift */,
+				5C735CB722397E5B00A61D7D /* NetworkOperation.swift */,
+				5C735CBB22397E7000A61D7D /* RequestBuilder.swift */,
+				5C735CBF22397E7E00A61D7D /* Constant.swift */,
+				5C735CC322397E8900A61D7D /* HttpMethod.swift */,
+				5C735CC722397E9500A61D7D /* SwiftyJSON.swift */,
+				5C735CCB22397E9E00A61D7D /* Networklayer.swift */,
 				5C79B9D6223974BC0029942D /* ViewController.swift */,
+				5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */,
+				5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */,
+				5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */,
 				5C79B9D8223974BC0029942D /* Main.storyboard */,
 				5C79B9DE223974BC0029942D /* Assets.xcassets */,
 				5C79B9E0223974BC0029942D /* LaunchScreen.storyboard */,
@@ -378,9 +428,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C735CD022397EA500A61D7D /* ServiceRequestLayer.swift in Sources */,
+				5C735CC022397E7E00A61D7D /* Constant.swift in Sources */,
+				5C735CD422397EC000A61D7D /* ContentDetailsModel.swift in Sources */,
+				5C735CD822397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */,
 				5C79B9DD223974BC0029942D /* WiproTest.xcdatamodeld in Sources */,
 				5C79B9D7223974BC0029942D /* ViewController.swift in Sources */,
+				5C735CB822397E5B00A61D7D /* NetworkOperation.swift in Sources */,
+				5C735CC422397E8900A61D7D /* HttpMethod.swift in Sources */,
+				5C735CBC22397E7000A61D7D /* RequestBuilder.swift in Sources */,
+				5C735CC822397E9500A61D7D /* SwiftyJSON.swift in Sources */,
 				5C79B9D5223974BC0029942D /* AppDelegate.swift in Sources */,
+				5C735CCC22397E9E00A61D7D /* Networklayer.swift in Sources */,
+				5C735CB422397E4600A61D7D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +449,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C79B9ED223974BC0029942D /* WiproTestTests.swift in Sources */,
+				5C735CB922397E5B00A61D7D /* NetworkOperation.swift in Sources */,
+				5C735CD522397EC000A61D7D /* ContentDetailsModel.swift in Sources */,
+				5C735CC122397E7E00A61D7D /* Constant.swift in Sources */,
+				5C735CB522397E4600A61D7D /* HomeViewController.swift in Sources */,
+				5C735CD922397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */,
+				5C735CD122397EA500A61D7D /* ServiceRequestLayer.swift in Sources */,
+				5C735CCD22397E9E00A61D7D /* Networklayer.swift in Sources */,
+				5C735CC522397E8900A61D7D /* HttpMethod.swift in Sources */,
+				5C735CC922397E9500A61D7D /* SwiftyJSON.swift in Sources */,
+				5C735CBD22397E7000A61D7D /* RequestBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +467,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C79B9F8223974BD0029942D /* WiproTestUITests.swift in Sources */,
+				5C735CBA22397E5B00A61D7D /* NetworkOperation.swift in Sources */,
+				5C735CD622397EC000A61D7D /* ContentDetailsModel.swift in Sources */,
+				5C735CC222397E7E00A61D7D /* Constant.swift in Sources */,
+				5C735CB622397E4600A61D7D /* HomeViewController.swift in Sources */,
+				5C735CDA22397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */,
+				5C735CD222397EA500A61D7D /* ServiceRequestLayer.swift in Sources */,
+				5C735CCE22397E9E00A61D7D /* Networklayer.swift in Sources */,
+				5C735CC622397E8900A61D7D /* HttpMethod.swift in Sources */,
+				5C735CCA22397E9500A61D7D /* SwiftyJSON.swift in Sources */,
+				5C735CBE22397E7000A61D7D /* RequestBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
