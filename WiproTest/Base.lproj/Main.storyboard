@@ -33,23 +33,23 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTi-Ch-77o">
-                                                    <rect key="frame" x="5" y="2" width="399" height="99"/>
+                                                    <rect key="frame" x="5" y="2" width="360" height="99"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bom-lJ-Zqw">
-                                                            <rect key="frame" x="5" y="2.5" width="92" height="83"/>
+                                                            <rect key="frame" x="5" y="7.5" width="92" height="83"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="92" id="3rc-Dj-Mlc"/>
                                                                 <constraint firstAttribute="height" constant="83" id="g0m-B7-cS3"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QI-rt-xYH">
-                                                            <rect key="frame" x="114" y="8" width="275" height="17"/>
+                                                            <rect key="frame" x="114" y="8" width="236" height="17"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBa-64-Kyc">
-                                                            <rect key="frame" x="116" y="30" width="273" height="16"/>
+                                                            <rect key="frame" x="116" y="30" width="234" height="16"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -60,8 +60,8 @@
                                                         <constraint firstAttribute="trailing" secondItem="3QI-rt-xYH" secondAttribute="trailing" constant="10" id="09v-KQ-fi8"/>
                                                         <constraint firstItem="Bom-lJ-Zqw" firstAttribute="leading" secondItem="FTi-Ch-77o" secondAttribute="leading" constant="5" id="1EO-kD-GAt"/>
                                                         <constraint firstAttribute="trailing" secondItem="mBa-64-Kyc" secondAttribute="trailing" constant="10" id="1ad-QR-9xU"/>
-                                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Bom-lJ-Zqw" secondAttribute="bottom" constant="13.67" id="AKK-Hb-mWB"/>
-                                                        <constraint firstItem="Bom-lJ-Zqw" firstAttribute="top" secondItem="FTi-Ch-77o" secondAttribute="top" constant="2.3300000000000001" id="Et8-tR-kCT"/>
+                                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Bom-lJ-Zqw" secondAttribute="bottom" constant="8.5" id="AKK-Hb-mWB"/>
+                                                        <constraint firstItem="Bom-lJ-Zqw" firstAttribute="top" secondItem="FTi-Ch-77o" secondAttribute="top" constant="7.5" id="Et8-tR-kCT"/>
                                                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="mBa-64-Kyc" secondAttribute="bottom" constant="6.5" id="M87-dC-1hX"/>
                                                         <constraint firstItem="mBa-64-Kyc" firstAttribute="top" secondItem="3QI-rt-xYH" secondAttribute="bottom" constant="5" id="Mgb-Lu-vQy"/>
                                                         <constraint firstItem="3QI-rt-xYH" firstAttribute="leading" secondItem="Bom-lJ-Zqw" secondAttribute="trailing" constant="17" id="Q9w-BG-prT"/>
@@ -82,10 +82,17 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="descriptionText" destination="mBa-64-Kyc" id="G1u-oU-CBd"/>
+                                            <outlet property="titleImage" destination="Bom-lJ-Zqw" id="vZ8-6D-NbJ"/>
+                                            <outlet property="titleLabelText" destination="3QI-rt-xYH" id="YFV-sR-ahB"/>
                                             <outlet property="transparentView" destination="FTi-Ch-77o" id="ByD-o2-bjh"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="iQW-fK-jbj" id="yZe-4D-2ki"/>
+                                    <outlet property="delegate" destination="iQW-fK-jbj" id="CZT-uA-0w3"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

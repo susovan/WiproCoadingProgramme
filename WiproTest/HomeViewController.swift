@@ -18,6 +18,9 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        contentTableView.estimatedRowHeight = 60.0
+        contentTableView.rowHeight = UITableView.automaticDimension
+        
         self.loadTableViewContent()
     }
     
@@ -25,7 +28,13 @@ class HomeViewController: UIViewController {
     func loadTableViewContent() {
         
         serviceRequest.getContentDetails { (contentDetails) in
-            
+            DispatchQueue.main.async {
+                if contentDetails.count > 0
+                {
+                    self.contentDetailModel = contentDetails
+                    self.contentTableView.reloadData()
+                }
+            }
 
         }
     }

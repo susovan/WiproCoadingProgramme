@@ -7,15 +7,18 @@
 //
 
 import UIKit
-
+import SDWebImage
 class ContentTableviewCustomCell: UITableViewCell {
     
+    @IBOutlet weak var transparentView: UIView!
     @IBOutlet weak var titleLabelText: UILabel!
     @IBOutlet weak var titleImage: UIImageView!
     @IBOutlet weak var descriptionText: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.transparentView.layer.cornerRadius = 5
+        self.transparentView.clipsToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -25,9 +28,10 @@ class ContentTableviewCustomCell: UITableViewCell {
     }
     
     func cellAttribute(modelValue:ContentDetailsModel)  {
-//        titleImage.sd_setImage(with: URL(string:searchModel.thumnailImage ?? ""), placeholderImage: UIImage(named: "placeholder.png"))
-//        titleLabel.text = searchModel.title
-//        descriptionLabel.text = searchModel.descriptionTitle
+        
+        titleImage.sd_setImage(with: URL(string:modelValue.imageHref ?? "" ), placeholderImage: UIImage(named: "flag_of_canada"))
+        titleLabelText.text = modelValue.title
+        descriptionText.text = modelValue.descriptionDetails
     }
 
 }

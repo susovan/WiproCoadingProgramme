@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 class Constants{
     static let contentType = "Content-Type"
     static let applicationJson = "application/json"
