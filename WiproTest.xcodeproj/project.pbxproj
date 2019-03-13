@@ -142,6 +142,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5C735CDB22398BAA00A61D7D /* StroryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5C79B9D8223974BC0029942D /* Main.storyboard */,
+				5C79B9E0223974BC0029942D /* LaunchScreen.storyboard */,
+			);
+			path = StroryBoard;
+			sourceTree = "<group>";
+		};
+		5C735CDC22398C0200A61D7D /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5C735CB722397E5B00A61D7D /* NetworkOperation.swift */,
+				5C735CBB22397E7000A61D7D /* RequestBuilder.swift */,
+				5C735CC322397E8900A61D7D /* HttpMethod.swift */,
+				5C735CCB22397E9E00A61D7D /* Networklayer.swift */,
+				5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		5C735CDD22398C3100A61D7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C735CDE22398C3E00A61D7D /* TableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */,
+			);
+			path = TableviewCell;
+			sourceTree = "<group>";
+		};
+		5C735CDF22398C5D00A61D7D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5C735CC722397E9500A61D7D /* SwiftyJSON.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		5C79B9C8223974BC0029942D = {
 			isa = PBXGroup;
 			children = (
@@ -169,18 +214,13 @@
 			children = (
 				5C79B9D4223974BC0029942D /* AppDelegate.swift */,
 				5C735CB322397E4600A61D7D /* HomeViewController.swift */,
-				5C735CB722397E5B00A61D7D /* NetworkOperation.swift */,
-				5C735CBB22397E7000A61D7D /* RequestBuilder.swift */,
 				5C735CBF22397E7E00A61D7D /* Constant.swift */,
-				5C735CC322397E8900A61D7D /* HttpMethod.swift */,
-				5C735CC722397E9500A61D7D /* SwiftyJSON.swift */,
-				5C735CCB22397E9E00A61D7D /* Networklayer.swift */,
-				5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */,
-				5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */,
-				5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */,
-				5C79B9D8223974BC0029942D /* Main.storyboard */,
+				5C735CDF22398C5D00A61D7D /* Library */,
+				5C735CDC22398C0200A61D7D /* NetworkLayer */,
+				5C735CDD22398C3100A61D7D /* Model */,
+				5C735CDE22398C3E00A61D7D /* TableviewCell */,
+				5C735CDB22398BAA00A61D7D /* StroryBoard */,
 				5C79B9DE223974BC0029942D /* Assets.xcassets */,
-				5C79B9E0223974BC0029942D /* LaunchScreen.storyboard */,
 				5C79B9E3223974BC0029942D /* Info.plist */,
 				5C79B9DB223974BC0029942D /* WiproTest.xcdatamodeld */,
 			);
