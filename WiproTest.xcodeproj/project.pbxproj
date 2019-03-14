@@ -46,6 +46,7 @@
 		5C735CE9223A207A00A61D7D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE8223A207A00A61D7D /* Reachability.swift */; };
 		5C735CEA223A207A00A61D7D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE8223A207A00A61D7D /* Reachability.swift */; };
 		5C735CEB223A207A00A61D7D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE8223A207A00A61D7D /* Reachability.swift */; };
+		5C735D0A223A309B00A61D7D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C735D08223A309A00A61D7D /* MBProgressHUD.m */; };
 		5C79B9D5223974BC0029942D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9D4223974BC0029942D /* AppDelegate.swift */; };
 		5C79B9DA223974BC0029942D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C79B9D8223974BC0029942D /* Main.storyboard */; };
 		5C79B9DD223974BC0029942D /* WiproTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9DB223974BC0029942D /* WiproTest.xcdatamodeld */; };
@@ -86,6 +87,11 @@
 		5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableviewCustomCell.swift; sourceTree = "<group>"; };
 		5C735CE4223A0FB800A61D7D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		5C735CE8223A207A00A61D7D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5C735CEC223A25A900A61D7D /* WiproTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiproTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C735CED223A25A900A61D7D /* WiproTestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiproTestTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C735CEE223A25A900A61D7D /* WiproTestUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiproTestUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C735D08223A309A00A61D7D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5C735D09223A309A00A61D7D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		5C79B9D1223974BC0029942D /* WiproTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C79B9D4223974BC0029942D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C79B9D9223974BC0029942D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -191,8 +197,18 @@
 			isa = PBXGroup;
 			children = (
 				5C735CC722397E9500A61D7D /* SwiftyJSON.swift */,
+				5C735D04223A2DF100A61D7D /* ProgressView */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		5C735D04223A2DF100A61D7D /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				5C735D09223A309A00A61D7D /* MBProgressHUD.h */,
+				5C735D08223A309A00A61D7D /* MBProgressHUD.m */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 		5C79B9C8223974BC0029942D = {
@@ -233,6 +249,9 @@
 				5C79B9DE223974BC0029942D /* Assets.xcassets */,
 				5C79B9E3223974BC0029942D /* Info.plist */,
 				5C79B9DB223974BC0029942D /* WiproTest.xcdatamodeld */,
+				5C735CEC223A25A900A61D7D /* WiproTest-Bridging-Header.h */,
+				5C735CED223A25A900A61D7D /* WiproTestTests-Bridging-Header.h */,
+				5C735CEE223A25A900A61D7D /* WiproTestUITests-Bridging-Header.h */,
 			);
 			path = WiproTest;
 			sourceTree = "<group>";
@@ -337,13 +356,16 @@
 				TargetAttributes = {
 					5C79B9D0223974BC0029942D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					5C79B9E7223974BC0029942D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 5C79B9D0223974BC0029942D;
 					};
 					5C79B9F2223974BD0029942D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 5C79B9D0223974BC0029942D;
 					};
 				};
@@ -480,6 +502,7 @@
 				5C735CC022397E7E00A61D7D /* Constant.swift in Sources */,
 				5C735CD422397EC000A61D7D /* ContentDetailsModel.swift in Sources */,
 				5C735CD822397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */,
+				5C735D0A223A309B00A61D7D /* MBProgressHUD.m in Sources */,
 				5C79B9DD223974BC0029942D /* WiproTest.xcdatamodeld in Sources */,
 				5C735CB822397E5B00A61D7D /* NetworkOperation.swift in Sources */,
 				5C735CC422397E8900A61D7D /* HttpMethod.swift in Sources */,
@@ -688,6 +711,7 @@
 			baseConfigurationReference = D27636B5FD92F6878E6B3900 /* Pods-WiproTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WiproTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -696,6 +720,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Susovan.WiproTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproTest/WiproTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -706,6 +732,7 @@
 			baseConfigurationReference = 7B7DC6703F19ADC245F315CD /* Pods-WiproTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WiproTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -714,6 +741,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Susovan.WiproTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproTest/WiproTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -725,6 +753,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WiproTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -734,6 +763,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Susovan.WiproTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproTest/WiproTestTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproTest.app/WiproTest";
@@ -746,6 +777,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WiproTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -755,6 +787,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Susovan.WiproTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproTest/WiproTestTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproTest.app/WiproTest";
@@ -766,6 +799,7 @@
 			baseConfigurationReference = 76FEE6A0F357DD83D8A49225 /* Pods-WiproTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WiproTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -775,6 +809,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Susovan.WiproTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproTest/WiproTestUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WiproTest;
@@ -786,6 +822,7 @@
 			baseConfigurationReference = D04528187869011EF3653EF5 /* Pods-WiproTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WiproTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -795,6 +832,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Susovan.WiproTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiproTest/WiproTestUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WiproTest;

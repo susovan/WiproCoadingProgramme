@@ -30,10 +30,12 @@ class HomeViewController: UIViewController {
     
     func loadTableViewContent() {
         
+        Utility.showProgressView(view:self.view, title:"", detailstitle:"")
         if let reachability = Reachability(), reachability.isReachable {
             
             serviceRequest.getContentDetails { (contentDetails) in
                 DispatchQueue.main.async {
+                     Utility.hideProgressView(view:self.view)
                     if contentDetails.count > 0
                     {
                         self.contentDetailModel = contentDetails
@@ -47,7 +49,9 @@ class HomeViewController: UIViewController {
             }
         }else
         {
+            Utility.hideProgressView(view:self.view)
             Utility.showMessage(title:Constants.pleaseChcekInternetConnection, msg:Constants.pleaseTryaftersometime)
+          
         }
         
     }
