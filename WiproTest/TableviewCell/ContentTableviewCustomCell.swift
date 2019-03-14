@@ -27,6 +27,7 @@ class ContentTableviewCustomCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
     /// func cellAttribute(): pass the *ContentDetailsModel* object  which update the tableview Cell.
     
     

@@ -19,28 +19,37 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         contentTableView.estimatedRowHeight = 60.0
         contentTableView.rowHeight = UITableView.automaticDimension
         self.loadTableViewContent()
     }
 
     // // LoadTableviewContent : call Websevice to get the Content
-    
     /// cotent Value > 0 Update the tableview.
     
     func loadTableViewContent() {
         
-        serviceRequest.getContentDetails { (contentDetails) in
-            DispatchQueue.main.async {
-                if contentDetails.count > 0
-                {
-                    self.contentDetailModel = contentDetails
-                    self.contentTableView.reloadData()
+        if let reachability = Reachability(), reachability.isReachable {
+            
+            serviceRequest.getContentDetails { (contentDetails) in
+                DispatchQueue.main.async {
+                    if contentDetails.count > 0
+                    {
+                        self.contentDetailModel = contentDetails
+                        self.contentTableView.reloadData()
+                    }else
+                    {
+                        Utility.showMessage(title:Constants.noContent, msg:Constants.pleaseTryAfterSomeTime)
+                    }
                 }
+                
             }
-
+        }else
+        {
+            Utility.showMessage(title:Constants.pleaseChcekInternetConnection, msg:Constants.pleaseTryaftersometime)
         }
+        
     }
 }
 

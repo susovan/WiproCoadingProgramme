@@ -20,6 +20,12 @@ class Constants{
     static let title = "title"
     static let description = "description"
     static let imageHref = "imageHref"
+    static let noContent = "No Content"
+    static let pleaseTryAfterSomeTime = "pleaseTryAfterSomeTime"
+    static let  pleaseChcekInternetConnection = "Please Chcek InternetConnection"
+    static let  pleaseTryaftersometime = "Please Try after sometime"
+
+
 
 
 

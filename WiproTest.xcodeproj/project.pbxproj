@@ -40,6 +40,12 @@
 		5C735CD822397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */; };
 		5C735CD922397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */; };
 		5C735CDA22397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */; };
+		5C735CE5223A0FB800A61D7D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE4223A0FB800A61D7D /* Utility.swift */; };
+		5C735CE6223A0FB800A61D7D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE4223A0FB800A61D7D /* Utility.swift */; };
+		5C735CE7223A0FB800A61D7D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE4223A0FB800A61D7D /* Utility.swift */; };
+		5C735CE9223A207A00A61D7D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE8223A207A00A61D7D /* Reachability.swift */; };
+		5C735CEA223A207A00A61D7D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE8223A207A00A61D7D /* Reachability.swift */; };
+		5C735CEB223A207A00A61D7D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CE8223A207A00A61D7D /* Reachability.swift */; };
 		5C79B9D5223974BC0029942D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9D4223974BC0029942D /* AppDelegate.swift */; };
 		5C79B9DA223974BC0029942D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C79B9D8223974BC0029942D /* Main.storyboard */; };
 		5C79B9DD223974BC0029942D /* WiproTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C79B9DB223974BC0029942D /* WiproTest.xcdatamodeld */; };
@@ -78,6 +84,8 @@
 		5C735CCF22397EA500A61D7D /* ServiceRequestLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequestLayer.swift; sourceTree = "<group>"; };
 		5C735CD322397EC000A61D7D /* ContentDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailsModel.swift; sourceTree = "<group>"; };
 		5C735CD722397EC600A61D7D /* ContentTableviewCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableviewCustomCell.swift; sourceTree = "<group>"; };
+		5C735CE4223A0FB800A61D7D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		5C735CE8223A207A00A61D7D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		5C79B9D1223974BC0029942D /* WiproTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C79B9D4223974BC0029942D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C79B9D9223974BC0029942D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -215,6 +223,8 @@
 				5C79B9D4223974BC0029942D /* AppDelegate.swift */,
 				5C735CB322397E4600A61D7D /* HomeViewController.swift */,
 				5C735CBF22397E7E00A61D7D /* Constant.swift */,
+				5C735CE4223A0FB800A61D7D /* Utility.swift */,
+				5C735CE8223A207A00A61D7D /* Reachability.swift */,
 				5C735CDF22398C5D00A61D7D /* Library */,
 				5C735CDC22398C0200A61D7D /* NetworkLayer */,
 				5C735CDD22398C3100A61D7D /* Model */,
@@ -465,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C735CE9223A207A00A61D7D /* Reachability.swift in Sources */,
 				5C735CD022397EA500A61D7D /* ServiceRequestLayer.swift in Sources */,
 				5C735CC022397E7E00A61D7D /* Constant.swift in Sources */,
 				5C735CD422397EC000A61D7D /* ContentDetailsModel.swift in Sources */,
@@ -472,6 +483,7 @@
 				5C79B9DD223974BC0029942D /* WiproTest.xcdatamodeld in Sources */,
 				5C735CB822397E5B00A61D7D /* NetworkOperation.swift in Sources */,
 				5C735CC422397E8900A61D7D /* HttpMethod.swift in Sources */,
+				5C735CE5223A0FB800A61D7D /* Utility.swift in Sources */,
 				5C735CBC22397E7000A61D7D /* RequestBuilder.swift in Sources */,
 				5C735CC822397E9500A61D7D /* SwiftyJSON.swift in Sources */,
 				5C79B9D5223974BC0029942D /* AppDelegate.swift in Sources */,
@@ -492,9 +504,11 @@
 				5C735CD922397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */,
 				5C735CD122397EA500A61D7D /* ServiceRequestLayer.swift in Sources */,
 				5C735CCD22397E9E00A61D7D /* Networklayer.swift in Sources */,
+				5C735CE6223A0FB800A61D7D /* Utility.swift in Sources */,
 				5C735CC522397E8900A61D7D /* HttpMethod.swift in Sources */,
 				5C735CC922397E9500A61D7D /* SwiftyJSON.swift in Sources */,
 				5C735CBD22397E7000A61D7D /* RequestBuilder.swift in Sources */,
+				5C735CEA223A207A00A61D7D /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,9 +524,11 @@
 				5C735CDA22397EC600A61D7D /* ContentTableviewCustomCell.swift in Sources */,
 				5C735CD222397EA500A61D7D /* ServiceRequestLayer.swift in Sources */,
 				5C735CCE22397E9E00A61D7D /* Networklayer.swift in Sources */,
+				5C735CE7223A0FB800A61D7D /* Utility.swift in Sources */,
 				5C735CC622397E8900A61D7D /* HttpMethod.swift in Sources */,
 				5C735CCA22397E9500A61D7D /* SwiftyJSON.swift in Sources */,
 				5C735CBE22397E7000A61D7D /* RequestBuilder.swift in Sources */,
+				5C735CEB223A207A00A61D7D /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

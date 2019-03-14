@@ -31,7 +31,7 @@ class NetworkLayer {
     static func executeRequest(_ urlRequest: URLRequest, completion: @escaping reportCompletion) {
         NetworkOperation.executeNetworkRequest(urlRequest) { (data, response, error) in
             if nil != error {
-//                Utility.showMessage(title:"Error",msg:error!.localizedDescription)
+              Utility.showMessage(title:"Error",msg:error!.localizedDescription)
                 return
             }
             guard nil != data else {
@@ -46,8 +46,8 @@ class NetworkLayer {
                 completion(data)
             }else
             {
-                _ = error?.localizedDescription ?? Constants.errorMessage
-//                Utility.showMessage(title:"No Access", msg:errorMessage)
+                let errorMessage = error?.localizedDescription ?? Constants.errorMessage
+                Utility.showMessage(title:"No Access", msg:errorMessage)
                 return completion(nil)
             }
 
