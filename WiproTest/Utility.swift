@@ -16,7 +16,7 @@ class Utility {
 
         
         let alert = UIAlertController(title: title, message: msg, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+         alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
          topViewController()?.present(alert, animated:true, completion:nil)
         
     }
@@ -49,9 +49,7 @@ class Utility {
         spinnerActivity?.detailsLabelText = detailstitle;
         spinnerActivity?.detailsLabelFont = UIFont.boldSystemFont(ofSize: 15)
         spinnerActivity?.isUserInteractionEnabled = false;
-        
-        
-    }
+        }
     
     static func hideProgressView(view:UIView)
     {
