@@ -7,6 +7,23 @@
 //
 
 import Foundation
+
+/**
+ func executeRequest()
+ - Parameters:
+     - urlRequest:  *URLRequest* parameter pass the request Body.
+
+  completionBlock :
+         -Data : *Data* complitionblock capture the data.
+*/
+
+/**
+ NetworkOperation.executeNetworkRequest() which returns *data, response, error* from the server
+ 
+ */
+
+
+
 class NetworkLayer {
     
     typealias reportCompletion = (_ reports:Data?) -> Void

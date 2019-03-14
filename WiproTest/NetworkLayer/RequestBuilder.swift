@@ -8,6 +8,14 @@
 
 import Foundation
 
+//Returns the URLRequest.
+
+/// - Parameters:
+///     - address:  *String* parameter pass the URL.
+///     -parameters : *[AnyHashable: Any]? = nil* pass the requestboday parameter.
+///     -httpBody  : *Data?* create the request body.
+///     -httpType  : *HTTPMethod* pass the method - get,Post,put,delete
+
 
 class RequestBuilder {
     

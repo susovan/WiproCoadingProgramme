@@ -7,6 +7,15 @@
 //
 
 import Foundation
+
+
+/// serviceRequest : getContentDetails(complition: @escaping tableContentDetails) which returns the array of ContentDetailsModel object.
+
+///RequestBuilder.getRequestForAddres which pass the URL,parameters:nil,httpBody:nil,httpType:HTTPMethod.get to request builder class
+
+
+
+
 class serviceRequest
     
 {

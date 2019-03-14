@@ -27,6 +27,9 @@ class ContentTableviewCustomCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    /// func cellAttribute(): pass the *ContentDetailsModel* object  which update the tableview Cell.
+    
+    
     func cellAttribute(modelValue:ContentDetailsModel)  {
         
         titleImage.sd_setImage(with: URL(string:modelValue.imageHref ?? "" ), placeholderImage: UIImage(named: "flag_of_canada"))

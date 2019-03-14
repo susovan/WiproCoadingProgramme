@@ -15,16 +15,20 @@ class HomeViewController: UIViewController {
     var contentDetailModel : [ContentDetailsModel]?
 
 
+    // ViewLifeCycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         contentTableView.estimatedRowHeight = 60.0
         contentTableView.rowHeight = UITableView.automaticDimension
-        
         self.loadTableViewContent()
     }
-    
 
+    // // LoadTableviewContent : call Websevice to get the Content
+    
+    /// cotent Value > 0 Update the tableview.
+    
     func loadTableViewContent() {
         
         serviceRequest.getContentDetails { (contentDetails) in
@@ -40,6 +44,7 @@ class HomeViewController: UIViewController {
     }
 }
 
+//Tablevbiew Datasourse and Delegate
 
 extension HomeViewController : UITableViewDelegate,UITableViewDataSource
 {

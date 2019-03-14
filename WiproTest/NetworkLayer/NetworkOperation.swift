@@ -9,6 +9,18 @@
 
 import Foundation
 
+/// - Parameters:
+///     - urlRequest:  *urlRequest* create the request.
+
+
+/// -CompletionBlock : after service call return
+
+///           -result :  *result*  returnt data.
+///           -response : *response* returen status code.
+///           -error   : *error*  return error message.
+
+/// URLSession framework used to call websewrvice.
+
 class NetworkOperation {
     typealias CompletionBlock = (_ result: Data?, _ response: URLResponse?, _ error: Error?) -> Void
     static func executeNetworkRequest(_ urlRequest: URLRequest, completion: @escaping CompletionBlock) {

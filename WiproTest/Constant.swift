@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Constant Value
+
 class Constants{
     static let contentType = "Content-Type"
     static let applicationJson = "application/json"
