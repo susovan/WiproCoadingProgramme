@@ -40,19 +40,19 @@ class Utility {
     static func showProgressView(view:UIView,title:String,detailstitle:String)
         
     {
-        let spinnerActivity = MBProgressHUD.showAdded(to:view, animated: true);
-        spinnerActivity?.labelText = title
-        spinnerActivity?.opacity = 0.5
-        spinnerActivity?.dimBackground = true
-        spinnerActivity?.cornerRadius = 7
-        spinnerActivity?.margin = 30
-        spinnerActivity?.detailsLabelText = detailstitle;
-        spinnerActivity?.detailsLabelFont = UIFont.boldSystemFont(ofSize: 15)
-        spinnerActivity?.isUserInteractionEnabled = false;
+//        let spinnerActivity = MBProgressHUD.showAdded(to:view, animated: true);
+//        spinnerActivity?.labelText = title
+//        spinnerActivity?.opacity = 0.5
+//        spinnerActivity?.dimBackground = true
+//        spinnerActivity?.cornerRadius = 7
+//        spinnerActivity?.margin = 30
+//        spinnerActivity?.detailsLabelText = detailstitle;
+//        spinnerActivity?.detailsLabelFont = UIFont.boldSystemFont(ofSize: 15)
+//        spinnerActivity?.isUserInteractionEnabled = false;
         }
     
     static func hideProgressView(view:UIView)
     {
-        MBProgressHUD.hideAllHUDs(for: view, animated: true);
+//        MBProgressHUD.hideAllHUDs(for: view, animated: true);
     }
 }

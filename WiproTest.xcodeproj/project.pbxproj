@@ -10,6 +10,7 @@
 		077FC20DA61F841C07CAD034 /* Pods_WiproTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE82E38AF70CB40B73F95737 /* Pods_WiproTest.framework */; };
 		1EE76B3FD177AB9F447E99B1 /* Pods_WiproTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD48C7FCA5E8634AC91E9FBB /* Pods_WiproTestTests.framework */; };
 		42FD94B0E3868F3585E625DB /* Pods_WiproTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36E3965C353C7FBF7F649B /* Pods_WiproTestUITests.framework */; };
+		5C0E47D1223A7EFE007B8373 /* HttpClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E47D0223A7EFE007B8373 /* HttpClientTests.swift */; };
 		5C735CB422397E4600A61D7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB322397E4600A61D7D /* HomeViewController.swift */; };
 		5C735CB522397E4600A61D7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB322397E4600A61D7D /* HomeViewController.swift */; };
 		5C735CB622397E4600A61D7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735CB322397E4600A61D7D /* HomeViewController.swift */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		078BC66FA1EF8FC2C327F1EC /* Pods-WiproTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WiproTestTests/Pods-WiproTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C0E47D0223A7EFE007B8373 /* HttpClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTests.swift; sourceTree = "<group>"; };
 		5C735CB322397E4600A61D7D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5C735CB722397E5B00A61D7D /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
 		5C735CBB22397E7000A61D7D /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				5C79B9EC223974BC0029942D /* WiproTestTests.swift */,
+				5C0E47D0223A7EFE007B8373 /* HttpClientTests.swift */,
 				5C79B9EE223974BD0029942D /* Info.plist */,
 			);
 			path = WiproTestTests;
@@ -521,6 +524,7 @@
 			files = (
 				5C79B9ED223974BC0029942D /* WiproTestTests.swift in Sources */,
 				5C735CB922397E5B00A61D7D /* NetworkOperation.swift in Sources */,
+				5C0E47D1223A7EFE007B8373 /* HttpClientTests.swift in Sources */,
 				5C735CD522397EC000A61D7D /* ContentDetailsModel.swift in Sources */,
 				5C735CC122397E7E00A61D7D /* Constant.swift in Sources */,
 				5C735CB522397E4600A61D7D /* HomeViewController.swift in Sources */,

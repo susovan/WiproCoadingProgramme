@@ -10,25 +10,29 @@ import XCTest
 @testable import WiproTest
 
 class WiproTestTests: XCTestCase {
+    
+    var controller: UIViewController!
+    var tableView: UITableView!
+    var delegate: UITableViewDelegate!
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        super.setUp()
+        guard let vc = UIStoryboard(name: "Main", bundle: Bundle(for: HomeViewController.self))
+            .instantiateInitialViewController() as? HomeViewController else {
+                return XCTFail("Could not instantiate ViewController from main storyboard")
         }
+        
+
+        controller.loadViewIfNeeded()
+        tableView = vc.contentTableView
+        delegate = tableView.delegate
+        
     }
 
+  
+    func testTableViewHasCells() {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ContentTableviewCustomCell")
+        XCTAssertNotNil(cell,
+                        "TableView should be able to dequeue cell with identifier: 'Cell'")
+    }
 }
