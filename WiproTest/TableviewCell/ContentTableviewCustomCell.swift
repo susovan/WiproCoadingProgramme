@@ -10,6 +10,10 @@ import UIKit
 import SDWebImage
 class ContentTableviewCustomCell: UITableViewCell {
     
+    
+    
+    
+    
     @IBOutlet weak var transparentView: UIView!
     @IBOutlet weak var titleLabelText: UILabel!
     @IBOutlet weak var titleImage: UIImageView!
