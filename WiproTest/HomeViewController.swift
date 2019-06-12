@@ -14,6 +14,9 @@ class HomeViewController: UIViewController {
     
     var contentDetailModel : [ContentDetailsModel]?
     var refreshControl   = UIRefreshControl()
+    
+    
+    //added 
 
 
     // ViewLifeCycle : ViewDidLoad
